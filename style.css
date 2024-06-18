@@ -1,9 +1,32 @@
-.cards-container {
-  width: 100%;
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
-.dropdown-menu{
-    text-align: center;
+
+
+.dev-1{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.navbar-dropdown ul li a{
-    color: black;
+
+.dev-2{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content{
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+}
+
+.content h2{
+  margin-bottom: 15px;
+}
+.president img{
+  border: 4px solid white;
 }
